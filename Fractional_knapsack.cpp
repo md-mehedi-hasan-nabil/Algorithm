@@ -23,7 +23,7 @@ bool cmp(struct Item a, struct Item b)
     return r1 > r2;
 }
 
-void fractional_knapsack_RB()
+void fractional_knapsack()
 {
     sort(arr, arr + numberOfItem, cmp);
 
@@ -50,5 +50,5 @@ void fractional_knapsack_RB()
 
 int main()
 {
-    fractional_knapsack_RB();
+    fractional_knapsack();
 }
